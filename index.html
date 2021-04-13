@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Pet</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDObNiedulpGLM_KSa5VdhXqBD5IbO4wOU",
+      authDomain: "pet-a4be3.firebaseapp.com",
+      databaseURL: "https://pet-a4be3-default-rtdb.firebaseio.com",
+      projectId: "pet-a4be3",
+      storageBucket: "pet-a4be3.appspot.com",
+      messagingSenderId: "608467941885",
+      appId: "1:608467941885:web:1d374f50e60993350ec194"
+    };
+      
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+  
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="Food.js"></script>
+  </body>
+</html>
